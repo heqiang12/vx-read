@@ -1,9 +1,6 @@
 /* pages/bookcase/bookcase.wxss */
 
-#bookcase{
-  background-color: gray
-}
-
 .search-input{
-  border: 1px solid black
+  border: 1px solid #8C8C8C;
+  height: 80rpx;
 }

@@ -1,6 +1,9 @@
 <!-- 书架+搜索页 -->
 <view id="bookcase">
   <view class="search">
-    <i-input value="{{ searchKey }}" placeholder="搜索" mode="normal" />
+    <i-row>
+      <!-- <i-col span="24" > <i-input value="{{ searchKey }}" placeholder="搜索" mode="normal" i-class="search-input" focus type="text" confirm-type="search" bindconfirm="bindSearch" /> </i-col> -->
+      <i-col span="24"><input placeholder="搜索" class="search-input" focus type="text" confirm-type="search" bindconfirm="bindSearch" /></i-col>
+    </i-row>
   </view>
 </view>
