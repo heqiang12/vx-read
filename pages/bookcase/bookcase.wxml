@@ -1,0 +1,6 @@
+<!-- 书架+搜索页 -->
+<view id="bookcase">
+  <view class="search">
+    <i-input value="{{ searchKey }}" placeholder="搜索" mode="normal" />
+  </view>
+</view>
